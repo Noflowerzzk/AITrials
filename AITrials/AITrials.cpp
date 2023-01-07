@@ -8,6 +8,7 @@ using namespace std;
 #include <cmath>
 #include "Sigmoid.h"
 #include "neuron.h"
+#include "neuronNet.h"
 
 int main()
 {

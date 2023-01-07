@@ -9,7 +9,7 @@ public:
 		func = new F();
 	}
 
-	T output(vector<T>& inputs) {
+	T output(const vector<T>& inputs) {
 		return (*func)(sum(inputs));
 	}
 
@@ -19,7 +19,7 @@ private:
 
 	F *func;
 
-	T sum(vector<T>& inputs)	// Ðèweight.size() == input.size()
+	T sum(const vector<T>& inputs)	// Ðèweight.size() == input.size()
 	{
 		T sum = 0;
 		for (int i = 0; i < inputs.size(); i++)

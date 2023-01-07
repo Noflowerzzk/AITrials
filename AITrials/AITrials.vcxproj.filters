@@ -26,5 +26,8 @@
     <ClInclude Include="Sigmoid.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="neuronNet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
